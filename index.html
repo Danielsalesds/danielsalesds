@@ -12,7 +12,7 @@
   <!-- Seção Header -->
   <header>
     <div class="header-content">
-      <img src="sua-foto.jpg" alt="Minha Foto" class="profile-photo">
+      <img src="img/perfil4.jpeg" alt="Minha Foto" class="profile-photo">
       <div class="header-text">
         <h1>Daniel Sales</h1>
         <p>Aluno de Análise e Desenvolvimento de Sistemas (UFRN), com foco em desenvolvimento web em Java, APIs REST, containers Docker e banco de dados PostgreSQL.</p>
@@ -54,17 +54,40 @@
       <p>danielsales3@gmail.com</p>
       <p>+55 (84) 99497-1697</p>
     </div>
-    <form>
-      <input type="text" placeholder="Seu nome">
-      <input type="email" placeholder="Seu e-mail">
-      <textarea placeholder="Sua mensagem"></textarea>
-      <button type="submit" class="btn">Enviar</button>
+<!-- Seu formulário -->
+    <form id="my-form" action="https://formspree.io/f/xjkrzyey" method="POST">
+        
+        <input type="text" name="name" placeholder="Seu nome" required />
+        <input type="email" name="email" placeholder="Seu email" required />
+        <textarea name="message" placeholder="Sua mensagem" required></textarea>
+
+        <button type="submit" class="btnform">Enviar</button>
+        <p id="my-form-status"></p>
     </form>
+
+
+
+<!-- Mensagem de sucesso -->
+    <p id="my-form-status" style="display: none; color: green;">
+    ✅ Obrigado! Sua mensagem foi enviada com sucesso.
+    </p>
+
   </section>
 
   <!-- Rodapé -->
   <footer>
     <p>© 2025 Todos os direitos reservados</p>
+    <div class="social-icons">
+        <a href="https://www.linkedin.com/feed/?trk=404_page" target="_blank">
+        <img src="img/linkedin.svg" alt="LinkedIn">
+        </a>
+        <a href="https://github.com/Danielsalesds" target="_blank">
+        <img src="img/github.svg" alt="GitHub">
+        </a>
+        <a href="#" target="_blank">
+        <img src="img/instagram.svg" alt="Instagram">
+        </a>
+    </div>
   </footer>
 
   <!-- Modal -->
