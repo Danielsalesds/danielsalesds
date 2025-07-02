@@ -30,6 +30,23 @@ a {
   transform: scale(1.05); /* opcional: leve zoom */
   transition: all 0.3s ease; /* animação suave */
 }
+.btnform {
+  display: inline-block;
+  background: #ffe500;
+  color: #000;
+  padding: 10px 20px;
+  margin-top: 15px;
+  font-weight: bold;
+  border: 2px solid black; /* borda preta */
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btnform:hover {
+  background: #fff176;
+  color: #000;
+  transform: scale(1.05);
+}
 
 /* Header */
 header {
