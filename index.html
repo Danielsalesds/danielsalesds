@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Meu Portfólio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+
+<body>
+  <!-- Seção Header -->
+  <header>
+    <div class="header-content">
+      <img src="sua-foto.jpg" alt="Minha Foto" class="profile-photo">
+      <div class="header-text">
+        <h1>Daniel Sales</h1>
+        <p>Aluno de Análise e Desenvolvimento de Sistemas (UFRN), com foco em desenvolvimento web em Java, APIs REST, containers Docker e banco de dados PostgreSQL.</p>
+        <a href="#" class="btn">Saiba Mais</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Seção Projeto -->
+  <section class="project">
+    <h2>Projeto</h2>
+    <p>Estes são alguns dos projetos que refletem meu aprendizado e paixão por tecnologia, envolvendo desenvolvimento web (Java, Angular), mobile (Flutter, Firebase) e infraestrutura com Docker e PostgreSQL.</p>
+    <a href="https://github.com/Danielsalesds" target="_blank" class="btn">Ver Projetos</a>
+  </section>
+
+  <!-- Seção Galeria -->
+  <!-- Galeria -->
+<section class="gallery">
+  <div class="gallery-grid">
+    <div class="gallery-item" onclick="openModal('tarefaAPI')">
+      <img src="img/tarefaAPI.png" alt="Api Rest">
+      <h3>Api Rest/Java</h3>
+    </div>
+
+    <div class="gallery-item" onclick="openModal('mobileApp')">
+      <img src="img/club-app.jpeg" alt="Mobile App">
+      <h3>Mobile App/Flutter</h3>
+    </div>
+
+    <!-- Repita para os outros projetos -->
+  </div>
+</section>
+
+  <!-- Seção Contato -->
+  <section class="contact">
+    <a href="#" class="btn">Contato</a>
+    <div class="contact-info">
+      <p>Daniel Sales</p>
+      <p>danielsales3@gmail.com</p>
+      <p>+55 (84) 99497-1697</p>
+    </div>
+    <form>
+      <input type="text" placeholder="Seu nome">
+      <input type="email" placeholder="Seu e-mail">
+      <textarea placeholder="Sua mensagem"></textarea>
+      <button type="submit" class="btn">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>© 2025 Todos os direitos reservados</p>
+  </footer>
+
+  <!-- Modal -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal()">&times;</span>
+    <img id="modal-image" src="" alt="">
+    <h3 id="modal-title"></h3>
+    <p id="modal-description"></p>
+    <a id="modal-link" href="#" target="_blank" class="btn">Acessar Projeto</a>
+  </div>
+</div>
+
+<script src="scripts.js"></script>
+</body>
+</html>
