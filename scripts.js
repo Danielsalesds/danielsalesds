@@ -8,8 +8,14 @@ const projects = {
     mobileApp: {
       image: 'img/club-app.jpeg',
       title: 'Mobile App',
-      description: 'Aplicativo mobile para agendamento de horários em um clube de quadras esportivas. Desenvolvido utilizando Flutter para a interface e Firebase como backend. Atuei como desenvolvedor full stack, com foco principal no front-end e na experiência do usuário. ',
+      description: 'Aplicativo mobile completo para agendamento de horários em um clube de quadras esportivas. Desenvolvido utilizando Flutter para a interface e Firebase como backend. Atuei como desenvolvedor full stack, com foco principal no front-end e na experiência do usuário. ',
       link: 'https://github.com/Danielsalesds/Sistema-de-Reservas-de-Quadra-Esportivas'
+    },
+    produtosAPI: {
+      image: 'img/produtosAPI.png',
+      title: 'Tarefa API',
+      description: 'Uma aplicação simples com SpringBoot|java|JPA, API de Produtos Cadastro, Bucar, Deletar, Atualizar com banco H2(em memoria).',
+      link: 'https://github.com/Danielsalesds/Produtos_API'
     },
     // Adicione mais projetos conforme o ID usado no onclick
   };
