@@ -1,21 +1,27 @@
 const projects = {
     tarefaAPI: {
       image: 'img/tarefaAPI.png',
-      title: 'API Rest',
+      title: 'Tarefa API/Java',
       description: 'Projeto de gerenciamento de tarefas, desenvolvido como uma versão básica de uma API REST com operações CRUD. Utilizei Java, Spring Boot, JPA e PostgreSQL para estruturar o backend.',
      // link: 'https://github.com/Danielsalesds'
     },
     mobileApp: {
       image: 'img/club-app.jpeg',
-      title: 'Mobile App',
+      title: 'Club App/Flutter',
       description: 'Aplicativo mobile completo para agendamento de horários em um clube de quadras esportivas. Desenvolvido utilizando Flutter para a interface e Firebase como backend. Atuei como desenvolvedor full stack, com foco principal no front-end e na experiência do usuário. ',
       link: 'https://github.com/Danielsalesds/Sistema-de-Reservas-de-Quadra-Esportivas'
     },
     produtosAPI: {
       image: 'img/produtosAPI.png',
-      title: 'Tarefa API',
+      title: 'Produtos API/Java',
       description: 'Uma aplicação simples com SpringBoot|java|JPA, API de Produtos Cadastro, Bucar, Deletar, Atualizar com banco H2(em memoria).',
       link: 'https://github.com/Danielsalesds/Produtos_API'
+    },
+    sigecPHP: {
+      image: 'img/produtosAPI.png',
+      title: 'Sigec/PHP',
+      description: 'Sistema simples para gerenciamento de associados e controle de anuidades, desenvolvido em PHP como forma de praticar e aprofundar meus conhecimentos na criação de sistemas de gerenciamento web.',
+      link: 'https://github.com/Danielsalesds/Sistema-de-gerenciamento'
     },
     // Adicione mais projetos conforme o ID usado no onclick
   };
