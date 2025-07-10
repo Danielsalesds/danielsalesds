@@ -9,7 +9,7 @@ const projects = {
       image: 'img/club-app.jpeg',
       title: 'Club App/Flutter',
       description: 'Aplicativo mobile completo para agendamento de horários em um clube de quadras esportivas. Desenvolvido utilizando Flutter para a interface e Firebase como backend. Atuei como desenvolvedor full stack, com foco principal no front-end e na experiência do usuário. ',
-      link: 'https://github.com/Danielsalesds/Sistema-de-Reservas-de-Quadra-Esportivas'
+      //link: 'https://github.com/Danielsalesds/Sistema-de-Reservas-de-Quadra-Esportivas'
     },
     produtosAPI: {
       image: 'img/produtosAPI.png',
