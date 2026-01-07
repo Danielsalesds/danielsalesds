@@ -1,28 +1,34 @@
 const projects = {
     tarefaAPI: {
       image: 'img/tarefaAPI.png',
-      title: 'Tarefa API/Java',
+      title: 'Tarefa API: API Rest | Java',
       description: 'Projeto de gerenciamento de tarefas, desenvolvido como uma versão básica de uma API REST com operações CRUD. Utilizei Java, Spring Boot, JPA e PostgreSQL para estruturar o backend.',
      // link: 'https://github.com/Danielsalesds'
     },
     mobileApp: {
       image: 'img/club-app.jpeg',
-      title: 'Club App/Flutter',
+      title: 'Club App: Flutter | Firebase',
       description: 'Aplicativo mobile completo para agendamento de horários em um clube de quadras esportivas. Desenvolvido utilizando Flutter para a interface e Firebase como backend. Atuei como desenvolvedor full stack, com foco principal no front-end e na experiência do usuário. ',
       //link: 'https://github.com/Danielsalesds/Sistema-de-Reservas-de-Quadra-Esportivas'
     },
     produtosAPI: {
       image: 'img/produtosAPI.png',
-      title: 'Produtos API/Java',
+      title: 'Produtos API: API Rest | Java',
       description: 'Uma aplicação simples com SpringBoot|java|JPA, API de Produtos Cadastro, Bucar, Deletar, Atualizar com banco H2(em memoria).',
       link: 'https://github.com/Danielsalesds/Produtos_API'
     },
     sigecPHP: {
       image: 'img/produtosAPI.png',
-      title: 'Sigec/PHP',
+      title: 'Sigec: PHP',
       description: 'Sistema simples para gerenciamento de associados e controle de anuidades, desenvolvido em PHP como forma de praticar e aprofundar meus conhecimentos na criação de sistemas de gerenciamento web.',
       link: 'https://github.com/Danielsalesds/Sistema-de-gerenciamento'
     },
+    acessWay: {
+      image: 'img/acess-way.png',
+      title: 'AcessWay: Vuejs | Java',
+      description: 'Um MVP de sistema web com separação entre front-end e back-end, API REST completa e autenticação, permitindo o cadastro, busca e avaliação de ambientes quanto ao nível de acessibilidade, além de interação entre usuários em um contexto similar a uma rede social. Deploy em: https://acessway.netlify.app',
+      link: 'https://github.com/Danielsalesds/acesseWay-FrontEnd-Vue'
+    }
     // Adicione mais projetos conforme o ID usado no onclick
   };
 
